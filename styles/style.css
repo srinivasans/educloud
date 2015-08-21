@@ -1,0 +1,1438 @@
+body
+{
+min-width:1200px;
+max-width:1500px;
+min-height: 545px;
+max-height: 1000px;
+margin:0px auto;
+height:100%;
+display:block;
+background:rgba(0,0,0,0.1);
+}
+
+div.temp
+{
+font-family:tahoma;
+text-align:center;
+margin:50px auto;
+font-size:20px;
+font-weight:bold;
+}
+
+div.create_exam,div.exam_subjects,div.exam_timetable
+{
+text-align:center;
+font-family:tahoma;
+width:90%;
+margin:0px auto;
+max-width:90%;
+overflow:scroll;
+}
+
+div.exam_marking
+{
+overflow-x:scroll;
+}
+
+div.exam_timetable_view,div.exam_marking
+{
+text-align:center;
+font-family:tahoma;
+width:90%;
+margin:0px auto;
+max-width:90%;
+}
+
+table.create_exam_table,table.exam_subjects_table,table.exam_timetable,table.exam_marking
+{
+margin:0px auto;
+border:1px solid #B8B8B8;
+}
+
+table.exam_subjects_table
+{
+width:80%;
+}
+
+
+
+
+tr.report_list_head
+{
+border:1px solid #B8B8B8;
+background:#ABCDEF;
+}
+
+tr.report_list_data
+{
+border:1px solid #B8B8B8;
+}
+
+div.timetable_settings
+{
+width:80%;
+text-align:center;
+margin:0px auto;
+font-family:tahoma;
+}
+
+div.section_report,div.employee_report
+{
+padding:5px;
+font-family:tahoma;
+width:90%;
+margin:0px auto;
+text-align:center;
+}
+
+div#section_report_view,div#employee_report_view
+{
+padding:5px;
+}
+
+td.time_table
+{
+min-width:100px;
+}
+
+table#timetable_slots
+{
+margin:0px auto;
+}
+
+div.search_menu
+{
+font-family:tahoma;
+width:80%;
+margin:5px auto;
+text-align:center;
+padding:0px;
+background:rgba(0,0,0,0.1);
+border-radius:3px;
+border:1px solid #B8B8B8;
+cursor:pointer;
+}
+
+table.calendar_table
+{
+width:90%;
+margin:5px auto;
+font-family:tahoma;
+border:1px solid rgba(0,0,0,0.8);
+box-shadow:1px 0px 5px 1px #B8B8B8;
+border-radius:3px;
+}
+
+th.calendar_head
+{
+background:rgba(0,0,0,0.2);
+}
+
+span.month,span.year
+{
+font-family:tahoma;
+color:#FFFFFF;
+}
+
+div.calendar_date:hover
+{
+background:rgba(0,0,0,0.1);
+}
+
+div.calendar_date
+{
+padding:2px;
+}
+
+div.monthyear
+{
+padding-top:5px;
+display:inline-block;
+vertical-align:top;
+}
+
+td.calendar_box
+{
+height:50px;
+border:1px solid #B8B8B8;
+vertical-align:top;
+font-size:12px;
+min-width:100px;
+}
+
+div.create_event
+{
+width:90%;
+margin:0px auto;
+font-family:tahoma;
+text-align:center;
+}
+
+td.calendar_box:hover
+{
+background:rgb(253, 255, 189)
+}
+
+
+div.events_wrapper
+{
+width:90%;
+margin:0px auto;
+}
+
+div.month_select
+{
+background:rgba(0,0,0,0.5);
+text-align:center;
+border-radius:3px;
+padding:3px;
+}
+
+div.search_menu_item
+{
+padding:5px;
+display:inline-block;
+border:1px solid #B8B8B8;
+}
+
+div.mark_attendence
+{
+width:50%;
+margin:0px auto;
+text-align:center;
+}
+
+input#heading,input#event_name,input#event_description
+{
+width:100%;
+height:40px;
+}
+
+div.event_name,div.event_description,div.event_date,div.event_type
+{
+padding:10px;
+}
+
+div.calendar_event_display
+{
+display:inline-block;
+padding-left:2px;
+padding-right:2px;
+}
+
+div.events_info_head
+{
+padding:5px;
+width:96.7%;
+background:#ABCDEF;
+}
+
+div.events_info_date
+{
+display:inline-block;
+padding-left:5px;
+vertical-align:top;
+padding-top:3px;
+}
+
+div.events_info_name
+{
+padding:5px;
+font-weight:bold;
+border-bottom:1px solid #B8B8B8;
+}
+
+div.events_info_desc
+{
+padding:5px;
+padding-left:10px;
+}
+
+div.message_box
+{
+cursor:pointer;
+font-family:tahoma;
+position:absolute;
+width:300px;
+height:150px;
+display:none;
+background:#FFFFFF;
+z-index:100;
+border-radius:5px;
+border:1px solid rgba(0,0,0,0.8);
+box-shadow:1px 0px 5px 1px rgba(0,0,0,0.2);
+}
+
+img.calendar_event_display
+{
+width:25px;
+cursor:pointer;
+}
+
+
+div.new_notice_internal,div.new_notice_employee
+{
+width:95%;
+margin:0px auto;
+}
+
+div.timetable_menu
+{
+width:85%;
+margin:0px auto;
+text-align:center;
+}
+
+a.inner_menu
+{
+margin:0px auto;
+}
+
+img.icon
+{
+width:30px;
+}
+
+div.internal_notice_board,div.student_notice_board_view,div.employee_notice_board,div.employee_notice_board_view
+{
+width:90%;
+margin:10px auto;
+padding:10px;
+}
+
+div.internal_notice_info,div.student_notice_info_view,div.employee_notice_info
+{
+max-height:650px;
+overflow-y:scroll;
+}
+
+div.internal_notice_head,div.employee_notice_head
+{
+width:90%;
+margin:10px auto;
+border:1px solid #B8B8B8;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+}
+
+div.notice_type,div.time,div.heading
+{
+display:inline-block;
+vertical-align:top;
+font-family:tahoma;
+font-size:16px;
+font-weight:bold;
+color:rgba(0,0,0,0.9);
+width:5%;
+height:100%;
+}
+
+div.student_notice_author,div.employee_notice_author
+{
+padding:5px;
+background:rgba(0,0,0,0.1);
+font-family:tahoma;
+}
+
+div.internal_view_head,div.student_view_head,div.employee_view_head
+{
+height:31px;
+background:rgba(0,0,0,0.1);
+}
+
+div.create_notice
+{
+width:18%;
+padding:3px;
+border:1px solid #B8B8B8;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+text-align:center;
+margin:0px auto;
+background:rgba(0,0,0,0.1);
+font-family:tahoma;
+}
+
+div.create_notice:hover
+{
+box-shadow:1px 0px 5px 1px #A4FFFF;
+}
+
+div.notice_type_view,div.time_view,div.heading_view
+{
+display:inline-block;
+vertical-align:top;
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:rgba(0,0,0,0.9);
+width:5%;
+max-height:30px;
+}
+
+div.internal_notice_board
+{
+max-height:600px;
+overflow-y:scroll;
+}
+
+div.student_notice_board
+{
+width:95%;
+margin:0px auto;
+max-height:1000px;
+overflow-y:scroll;
+margin-top:10px;
+border-top:1px solid #B8B8B8;
+border-bottom:1px solid #B8B8B8;
+padding-bottom:10px;
+}
+
+div.student_notice_head
+{
+height:25px;
+background:rgba(0,0,0,0.1);
+padding:4px;
+padding-left:5px;
+padding-right:5px;
+font-family:tahoma;
+}
+
+div.student_notice_info
+{
+max-height:395px;
+margin:5px;
+background:#FFFFFF;
+margin-top:0px;
+overflow:hidden;
+}
+
+div.student_notice_head_elems
+{
+display:inline-block;
+vertical-align:top;
+}
+
+#student_notice_type
+{
+width:6%;
+}
+
+#student_notice_heading
+{
+width:77%;
+font-weight:bold;
+padding-left:3px;
+}
+
+#student_notice_date
+{
+width:13%;
+}
+
+div.student_notice
+{
+background:rgba(0,0,0,0.1);
+//max-height:400px;
+overflow:hidden;
+text-align:left;
+width:46%;
+margin-top:20px;
+border:1px solid #B8B8B8;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+border-radius:3px;
+display:inline-block;
+vertical-align:top;
+float:left;
+margin-left:10px;
+}
+
+div.notice_type_view
+{
+width:3%;
+}
+
+div.notice_type,div.notice_type_view
+{
+padding:10px;
+background:rgba(0,0,0,0.2);
+}
+
+div.internal_notice_info
+{
+border:1px solid #B8B8B8;
+border-top:none;
+padding:10px;
+padding-top:20px;
+font-family:tahoma;
+}
+
+
+div.notice_type_view,div.heading_view,div.time_view
+{
+padding:5px;
+}
+
+div.heading,div.heading_view
+{
+padding:10px;
+width:80%;
+}
+
+
+div.time,div.time_view
+{
+font-weight:normal;
+padding:8px;
+width:5%;
+background:rgba(0,0,0,0.1);
+float:right;
+}
+
+tr.notice_head
+{
+border:1px solid #B8B8B8;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+}
+
+textarea.notice_info
+{
+width:100%;
+margin-left:10px;
+margin:0px auto;
+height:500px;
+overflow:scroll;
+}
+
+div.attendance_report_frame
+{
+font-family:tahoma;
+width:80%;
+margin:10px auto;
+border:1px solid #B8B8B8;
+border-radius:3px;
+}
+
+div.attendance_student_details,div.attendance_stats
+{
+padding:5px;
+width:95%;
+margin:5px auto;
+border:1px solid #B8B8B8;
+border-radius:3px;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+}
+
+div.attendance_graph,div.complete_report,table.att_report_table,table.complete_report
+{
+text-align:center;
+padding:5px;
+width:95%;
+margin:10px auto;
+border:1px solid #B8B8B8;
+border-radius:3px;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+}
+
+
+div.complete_report
+{
+max-height:500px;
+overflow-y:scroll;
+}
+
+div.employee_att_mark,div.employee_att_view
+{
+width:80%;
+margin:0px auto;
+text-align:center;
+font-family:tahoma;
+}
+
+table.employee_att_mark,div.employee_mark,table.employee_mark,div.employee_att_view,table.employee_att_view
+{
+text-align:center;
+margin:5px auto;
+border:1px solid #B8B8B8;
+padding:3px;
+}
+
+
+::-webkit-scrollbar
+{
+width:10px;
+}
+
+div.complete_report::-webkit-scrollbar,div.internal_notice_info::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	background:rgba(255,255,255,0.5);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background:rgba(0,0,0,0.5);
+	border:rgba(0,0,0,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.1); 
+}
+
+
+div.inner_menu
+{
+clear:both;
+text-align:left;
+display:inline-block;
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:rgba(0,0,0,0.8);
+width:40%;
+border:1px solid #B8B8B8;
+box-shadow:1px 0px 5px 1px #B8B8B8;
+padding:5px;
+margin:10px;
+}
+
+img.inner_menu_img
+{
+margin:3px;
+vertical-align:middle;
+width:20%;
+}
+
+body.cloud
+{
+min-width:1200px;
+max-width:1500px;
+min-height: 545px;
+max-height: 1000px;
+margin:0px auto;
+height:100%;
+display:block;
+background:url("http://localhost/cloud/images/cloud.gif");
+}
+
+div.header
+{
+width:100%;
+background:url("http://localhost/cloud/images/backhead.jpg");
+height:43px;
+box-shadow:2px 2px 5px rgba(0,0,0,0.5);
+z-index:100;
+
+}
+
+div.content_wrap
+{
+width:80%;
+min-height:500px;
+margin:0px auto;
+background:rgba(255,255,255,0.3);
+padding-top:100px;
+}
+
+div.footer
+{
+width:100%;
+height:60px;
+background:url("http://localhost/cloud/images/backhead.jpg");
+}
+
+div.login
+{
+width:500px;
+background:#9BD5E8;
+height:350px;
+border:1px solid #555555;
+border-radius:5px;
+margin:0px auto;
+text-align:center;
+}
+
+input.text_input
+{
+width:300px;
+padding:3px;
+height:25px;
+border-radius:3px;
+border:1px solid #0B366E;
+-webkit-box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+}
+
+input.text
+{
+width:250px;
+padding:3px;
+height:20px;
+border-radius:3px;
+border:1px solid #0B366E;
+-webkit-box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+box-shadow:inset 0 1px 0 #eee,#fff 0 1px 0;
+}
+
+input.text_input:focus,input.text:focus
+{
+border:1px solid #B8B8B8;
+-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+}
+
+.login_table
+{
+margin:50px auto;
+}
+
+div.signin
+{
+color:#222222;
+font-family:'helvetica';
+font-size:18px;
+text-shadow:0px 1px #B8B8B8;
+margin-top:30px;
+}
+
+.login_btn
+{
+width:80px;
+height:30px;
+   background-color: #0B94DE; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4BC41B), to(#0D7EBA));
+   background-image: -webkit-linear-gradient(top, #0B94DE, #086496); 
+   background-image:    -moz-linear-gradient(top, #4BC41B, #377A1C);
+   background-image:     -ms-linear-gradient(top, #4BC41B, #377A1C);
+   background-image:      -o-linear-gradient(top, #4BC41B, #377A1C);
+   color:#FFFFFF;
+   font-weight:bold;
+   font-family:"Droid sans";
+   border-radius:3px;
+   border:1px solid #0B94DE;
+   cursor:pointer;
+}
+
+#submit
+{
+float:right;
+display:inline-block;
+}
+
+div.forgotpass
+{
+display:inline-block;
+color:#555555;
+float:left;
+cursor:pointer;
+padding-top:7px;
+padding-left:5px;
+font-family:'helvetica';
+font-size:12px;
+}
+
+div.forgotpass:hover
+{
+color:#222222;
+}
+
+div.name
+{
+background:url("http://localhost/cloud/images/cloud.png");
+padding-left:4.5%;
+padding-top:12px;
+color:#FFFFFF;
+font-family:'helvetica';
+font-size:20px;
+background-repeat:no-repeat;
+margin-left:4%;
+display:inline-block;
+float:left;
+}
+
+div.school_name
+{
+padding-right:45px;
+padding-top:12px;
+color:#FFFFFF;
+font-family:'helvetica';
+font-size:20px;
+display:inline-block;
+float:right;
+}
+
+div.logged_in_user
+{
+padding-right:2%;
+padding-top:12px;
+color:#FFFFFF;
+font-family:'helvetica';
+font-size:17px;
+position:relative;
+right:0px;
+display:inline-block;
+text-align:right;
+}
+
+span.edu
+{
+color:#ED9B0C;
+}
+
+div.header_wrap
+{
+width:80%;
+margin:0px auto;
+
+}
+
+div.new
+{
+text-align:center;
+color:#FFFFFF;
+font-family:'helvetica';
+font-size:15px;
+padding-top:20px;
+}
+
+div.content_wrapper
+{
+width:80%;
+margin:1px auto;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border:1px solid;
+border-top:none;
+min-height:600px;
+background:#FFFFFF;
+z-index:80;
+height:auto;
+margin-bottom:20px;
+}
+
+div.menu
+{
+width:120px;
+display:inline-block;
+background:rgba(10,10,10,0.2);
+min-height:820px;
+height:100%;
+position:relative;
+}
+
+div.menu_item
+{
+cursor:pointer;
+padding-top:5px;
+padding-bottom:5px;
+text-align:center;
+width:120px;
+border-radius:3px;
+border:1px solid rgba(0,0,0,0);
+}
+
+div.table_heading
+{
+font-family:tahoma;
+font-size:15px;
+width:100%;
+background:rgba(0,0,0,0.2);
+padding:2px;
+padding-left:5px;
+}
+
+div.menu_item:hover,div.menu_item_selected
+{
+background-color:#FFFFFF;
+border:1px solid rgba(10,10,10,0.1);
+}
+
+img.menu_image
+{
+margin:0px auto;
+width:60px;
+height:auto;
+text-align:center;
+}
+
+div.hover_raiser
+{
+font-family:tahoma;
+top:95px;
+width:120px;
+text-align:center;
+font-size:12px;
+}
+
+div.drop_down
+{
+display:inline-block;
+background:url('http://localhost/blog/arrow_down.png');
+width:18px;
+height:12px;
+float:right;
+cursor:pointer;
+}
+
+div.drop_wrap
+{
+width:18px;
+height:12px;
+//float:right;
+margin-top:0px;
+cursor:pointer;
+display:inline-block;
+}
+
+div.drop_down_wrap
+{
+position:absolute;
+display:none;
+z-index:1000;
+}
+
+div.drop_down_box
+{
+z-index:1000;
+position:absolute;
+width:150px;
+height:160px;
+background:#FFFFFF;
+top:27px;
+right:-35px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+box-shadow:1px 0px 2px #B8B8B8,2px 0px 0 #BBBBBB;
+border:1px solid #B8B8B8;
+}
+
+ul
+{
+padding:0px;
+margin-top:5px;
+list-style-type:none;
+}
+
+li.drop_down_item
+{
+color:#333333;
+text-decoration:none;
+font-family:'helvetica';
+font-size:13px;
+height:20px;
+padding-top:3px;
+padding-left:20px;
+padding-bottom:3px;
+}
+
+li.drop_down_item:hover
+{
+   /*background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,54,110,0.7)), to(rgba(11,54,110,0.8)));
+   background-image: -webkit-linear-gradient(top,rgba(11,54,110,0.7) ,rgba(11,54,110,0.8)); 
+   background-image:    -moz-linear-gradient(top, rgba(11,54,110,0.7), rgba(11,54,110,0.8));
+   background-image:     -ms-linear-gradient(top, rgba(11,54,110,0.7),rgba(11,54,110,0.8));
+   background-image:      -o-linear-gradient(top,rgba(11,54,110,0.7), rgba(11,54,110,0.8));
+color:#FFFFFF;*/
+
+background:rgba(0,0,0,0.2);
+}
+
+div.menu_active
+{
+background:rgba(255,255,255,0.2);
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+}
+
+div.menu_inactive
+{
+background:rgba(0,0,0,0.2);
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+}
+
+div.logged_in_user
+{
+display:inline-block;
+vertical-align:top;
+margin-left:5px;
+width:80%;
+}
+
+div.drop_item
+{
+padding-top:4px;
+padding-left:5px;
+padding-right:5px;
+cursor:pointer;
+color:rgba(255,255,255,0.5);
+display:inline-block;
+height:37px;
+margin-right:5px;
+display:inline-block;
+text-align:left;
+}
+
+div.drop_item:hover
+{
+color:#FFFFFF;
+}
+
+div.nameplate
+{
+display:inline-block;
+vertical-align:top;
+margin-left:5px;
+margin-right:5px;
+padding-top:5px;
+}
+
+a
+{
+color:rgba(0,0,0,0.9);
+text-decoration:none;
+}
+
+div.student_menu
+{
+width:100%;
+}
+
+div.content
+{
+position:relative;
+display:inline-block;
+vertical-align:top;
+width:85%;
+padding-bottom:50px;
+}
+
+div.select_menu
+{
+float:right;
+}
+
+div.select_menu_item
+{
+background:rgba(0,0,0,0.2);
+display:inline-block;
+padding:5px;
+padding-left:10px;
+padding-right:10px;
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+font-family:tahoma;
+font-size:13px;
+}
+
+div.select_menu_item:hover
+{
+background-color:rgba(0,0,0,0.1);
+cursor:pointer;
+}
+
+
+div.add_student_form,div.add_parent_form,div.student_details,div.timetable_submit,div.mark_attendence,div.add_employee_form,div.subject_teachers,div.attendance_view,div.confirm_add_employee_form,div.employee_details,div.create_section,div.subject_relations,div.subject_teacher_relations,div.subject_teacher_relations,div.time_table,div.attendance,div.attendance_section,div.section_student_relations
+{
+margin:0px auto;
+width:90%;
+padding-top:10px;
+}
+
+
+img.content_heading_image
+{
+width:70px;
+}
+
+div.content_heading
+{
+width:150px;
+margin:5px auto;
+text-align:center;
+}
+
+div.content_description
+{
+font-family:tahoma;
+font-weight:bold;
+font-size:15px;
+}
+
+table.add_student_form,table.add_parent_form,table.student_details,table.attendance_search,table.add_employee_form,table.confirm_add_employee,table.employee_details,table.create_section_form,table.subject_relations_form,table.subject_teacher_relations_form,table.teacher_section_relation,table.time_table,table.time_table_section,table.attendance_section,table.section_student_relations_form
+{
+margin:0px auto;
+margin-top:15px;
+margin-bottom:15px;
+}
+
+td.label
+{
+min-width:100px;
+padding-left:10px;
+font-family:tahoma;
+font-size:15px;
+}
+
+td.form_input
+{
+min-width:100px;
+padding-left:10px;
+font-family:tahoma;
+font-size:15px;
+}
+
+td.form_input,td.label
+{
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.submit_btn
+{
+width:auto;
+padding-left:15px;
+padding-right:15px;
+height:30px;
+   background-color: #377A1C; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4BC41B), to(#377A1C));
+   background-image: -webkit-linear-gradient(top, #4BC41B, #377A1C); 
+   background-image:    -moz-linear-gradient(top, #4BC41B, #377A1C);
+   background-image:     -ms-linear-gradient(top, #4BC41B, #377A1C);
+   background-image:      -o-linear-gradient(top, #4BC41B, #377A1C);
+   color:#FFFFFF;
+   font-weight:bold;
+   font-family:"Droid sans";
+   border-radius:3px;
+   border:1px solid #377A1C;
+   cursor:pointer;
+}
+
+.submit_btn:hover
+{
+   background-color: #377A1C; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#419E1C), to(#377A1C));
+   background-image: -webkit-linear-gradient(top, #419E1C, #377A1C); 
+   background-image:    -moz-linear-gradient(top, #419E1C, #377A1C);
+   background-image:     -ms-linear-gradient(top, #419E1C, #377A1C);
+   background-image:      -o-linear-gradient(top, #419E1C, #377A1C);
+}
+
+.yellow_btn
+{
+width:120px;
+height:30px;
+   background-color: #F28B05; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2D705), to(#F28B05));
+   background-image: -webkit-linear-gradient(top, #F2D705, #F28B05); 
+   background-image:    -moz-linear-gradient(top, #F2D705, #F28B05);
+   background-image:     -ms-linear-gradient(top, #F2D705, #F28B05);
+   background-image:      -o-linear-gradient(top, #F2D705, #F28B05);
+   color:#333333;
+   font-weight:bold;
+   font-family:"Droid sans";
+   border-radius:3px;
+   border:1px solid #F28B05;
+   cursor:pointer;
+}
+
+.yellow_btn:hover
+{
+   background-color: #F2D705; 
+   background-image: url(images/fallback-gradient.png); 
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F2AB05), to(#F28B05));
+   background-image: -webkit-linear-gradient(top, #F2AB05,#F28B05); 
+   background-image:    -moz-linear-gradient(top, #F2AB05, #F28B05);
+   background-image:     -ms-linear-gradient(top, #F2AB05,#F28B05);
+   background-image:      -o-linear-gradient(top,#F2AB05, #F28B05);
+}
+
+
+div.submit_button
+{
+padding:10px;
+width:90%;
+margin:0px auto;
+text-align:center;
+}
+
+div.error
+{
+width:90%;
+text-align:center;
+margin:0px auto;
+color:#000000;
+background:#FFAAAA;
+padding:5px;
+border:1px solid #FF0000;
+display:none;
+font-family:tahoma;
+font-size:15px;
+}
+
+.text_editable
+{
+width:250px;
+padding:3px;
+height:20px;
+font-weight:bold;
+}
+
+.teacher_select
+{
+width:250px;
+padding:3px;
+}
+
+
+td
+{
+width:200px;
+}
+
+td.heading
+{
+text-align:center;
+background:rgba(0,0,0,0.3);
+}
+
+td.student_details,td.employee_details
+{
+min-width:350px;
+text-align:center;
+padding-top:5px;
+padding-bottom:5px;
+font-family:tahoma;
+height:20px;
+}
+
+table.student_details,table.employee_details
+{
+border:1px solid rgba(0,0,0,0.5);
+border-radius:5px;
+font-size:15px;
+padding-bottom:5px;
+}
+
+tr.highlight
+{
+background:rgba(0,0,0,0.1);
+}
+
+div.student_details,div.employee_details
+{
+text-align:center;
+}
+
+div.search_input
+{
+width:100%;
+text-align:center;
+margin:0px auto;
+}
+
+div.search_results
+{
+width:80%;
+margin:0px auto;
+text-align:center;
+}
+
+div.results
+{
+font-family:tahoma;
+margin:10px;
+}
+
+div.search_heading
+{
+font-family:tahoma;
+font-size:12px;
+background:rgba(0,0,0,0.3);
+width:100%;
+padding:3px;
+}
+
+.search_head
+{
+font-family:tahoma;
+font-size:12px;
+background:rgba(0,0,0,0.2);
+padding:3px;
+}
+
+.search_result_item
+{
+font-family:tahoma;
+font-size:14px;
+background:rgba(0,0,0,0.1);
+padding:5px;
+}
+
+.search_result
+{
+font-size:14px;
+padding:5px;
+font-family:tahoma;
+margin-bottom:10px;
+}
+
+a.link
+{
+color:#0000FF;
+text-decoration:underline;
+}
+
+span.search_highlight
+{
+background:rgba(0,0,255,0.2);
+}
+
+table.time_table,td.time_table,table.time_table_section,td.time_table_day,table.attendance_section,td.attendance
+{
+border:1px solid #B8B8B8;
+border-spacing:0px;
+border-radius:2px;
+text-align:center;
+height:25px;
+}
+
+table.section_student_relations_form
+{
+border-spacing:0px;
+border-radius:2px;
+text-align:center;
+height:25px;
+}
+
+
+td.time_table_day
+{
+background:rgba(10, 10, 10, 0.2);
+}
+
+div.subject_teachers,div.timetable_stats
+{
+border:1px solid #B8B8B8;
+border-radius:2px;
+padding:5px;
+text-align:center;
+font-family:tahoma;
+font-size:14px;
+width:90%;
+margin:0px auto;
+}
+
+table.attendance_report
+{
+min-width:70%;
+font-family:tahoma;
+font-size:15px;
+margin:20px auto;
+border:1px solid #B8B8B8;
+}
+
+div.paginate_elem
+{
+display:inline-block;
+cursor:pointer;
+}
+
+div.report
+{
+padding-top:20px;
+}
+
+tr.att_rep_bold
+{
+background:rgba(0,0,0,0.2);
+font-weight:bold;
+}
+
+tr.att_rep
+{
+background:rgba(0,0,0,0.1);
+}
+
+div.drag
+{
+text-align:center;
+border:1px solid #B8B8B8;
+min-width:100px;
+height:25px;
+border-radius:2px;
+cursor:move;
+display:inline-block;
+margin-right:5px;
+margin-top:5px;
+}
+
+img.attendance_img
+{
+cursor:pointer;
+width:20px;
+}
+
+div.drag_cover,div.timetable_box
+{
+padding-top:2px;
+text-align:center;
+height:90%;
+}
+
+div.timetable_submit,div.mark_attendence
+{
+padding-top:10px;
+text-align:center;
+}
+
+table.timetable_stats,table.attendance_report
+{
+width:50%;
+margin:0px auto;
+text-align:center;
+}
+
+div.timetable_stats
+{
+width:80%;
+}
+
+div.student_list
+{
+margin:0px auto;
+text-align:center;
+width:80%;
+}
+
+table.student_section_select_list
+{
+font-family:tahoma;
+font-size:13px;
+}
+
+td.tab_head
+{
+border:1px solid #B8B8B8;
+background:#CEF6F5;
+}
+
+tr.student_list
+{
+border:1px solid #B8B8B8;
+}
+
+tr.student_list_alt
+{
+border:1px solid #B8B8B8;
+background:rgba(0,0,0,0.5);
+}

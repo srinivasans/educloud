@@ -1,0 +1,17 @@
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?key=$1
+
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?key=$1
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?key=$1&action=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?key=$1&action=$2
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?key=$1&action=$2&uid=$3
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?key=$1&action=$2&uid=$3
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?key=$1&action=$2&uid=$3&ref=$4
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?key=$1&action=$2&uid=$3&ref=$4
